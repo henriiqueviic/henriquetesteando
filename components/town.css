@@ -1,0 +1,116 @@
+.town-wrapper {
+    text-align: center;
+    gap: 20px; /* Espaço entre os elementos */
+  
+    flex-wrap: wrap;
+  
+    }
+  
+    .t-container-downie-second, .t-container-downie-one {
+      width: 480px;
+    height: 350px;
+    perspective: 800px;
+    display: inline-block; /* Adicione esta linha para alinhar os elementos lado a lado */
+    vertical-align: middle; /* Adicione esta linha para alinhar verticalmente */
+    padding: 30px; /* Adicione espaço interno de 10px para cada elemento */  
+    
+  }
+    
+    .t-container-downie-one:hover > .card, .t-container-downie-second:hover > .card {
+      cursor: pointer;
+      transform: rotateY(180deg);
+    }
+  
+    
+    .card {
+      height: 100%;
+      width: 100%;
+      position: relative;
+      transition: transform 1500ms;
+      transform-style: preserve-3d;
+      
+    }
+    
+    .t-front-one, .t-front-second,
+    .back-t {
+      height: 100%;
+      width: 100%;
+      border-radius: 2rem;
+      box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+      position: absolute;
+      backface-visibility: hidden;
+    }
+    
+    .t-front-one {
+      background-image: url("../assents/conceito-de-controle-de-qualidade-padrao-m\ \(2\).jpg"); }
+    .t-front-second {
+      background-image: url("../assents/operador-confiante-de-call-center-conversando-com-o-cliente\ \(1\).jpg");
+    }
+    
+    .back-t {
+      background-color: #b5b2b2;
+      transform: rotateY(180deg);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2rem;
+    }
+
+  
+    h6, h7 {
+      color: white;
+      font-size: 22px;
+    }
+  
+  .t-front-third, .t-front-four{
+    padding: 0.4rem 1rem;
+    font-size: 18px;
+  }
+  .t-card-one {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4rem;
+  }
+  #btnContatos-third {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  @media screen and (min-width:401px) and (max-width:745px) {
+  .t-front-one {
+    background-image: url("../assents/conceito-de-controle-de-qualidade-padrao-m.jpg"); }
+  .t-front-second {
+    background-image: url("../assents/operador-confiante-de-call-center-conversando-com-o-cliente.jpg");
+    }
+    .card  {
+      height: 232px;
+      width: 300px;
+      position: relative;
+      transition: transform 1100ms;
+      transform-style: preserve-3d;
+      
+    }
+
+    .t-container-downie-one, .t-container-downie-second {
+      padding-left: 3rem;
+    }
+    
+    .t-front-one, .t-front-second,
+    .back-t {
+      height: 232px;
+      width: 300px;
+      border-radius: 2rem;
+      box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+      position: absolute;
+      backface-visibility: hidden;
+    }
+  
+    
+    .t-card-one {
+margin-top: 2rem;
+    }
+    
+ }

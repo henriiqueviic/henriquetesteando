@@ -1,0 +1,58 @@
+@media screen and (min-width:300px) and (max-width: 645px)  {
+    header {
+        padding: 0.3rem;
+    }
+    
+
+    .panel {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+    
+    .col-a {
+        padding: 0 4px;
+        color: black;
+        font-size: 18px;
+        font-family: 'Noto Sans KR', sans-serif
+    }
+    .col-c {
+        font-size: 22px;
+        font-family: 'Roboto', sans-serif;
+    }
+    .col-a-two {
+        display: none;
+    }
+    
+    .panel-second {
+        display: flex;
+        align-items: flex-start;
+        position: absolute;
+        right: 0;
+        font-family: 'Inter', sans-serif;
+        color: black;
+        
+        
+    }
+    
+    /* HOME - SOBRE - CONVERSE */
+    
+    .col-d, .col-e, .col-f {
+        padding: 8px;
+        font-size: 11px;
+    }
+    .col-f {
+        display: none;
+    }
+
+    .home {
+        padding-top: 3rem;
+        text-align: center;
+    }
+    .container--principal {
+        display: none;
+    }
+
+
+    
+    }

@@ -1,0 +1,40 @@
+.naf {
+    display: flex;
+    
+    
+}
+.naff-container {
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, rgb(39, 111, 226), rgb(67, 100, 247), rgb(111, 177, 252));
+margin-top: 3rem;
+padding: 0.7rem 2rem;
+border-radius: 28px;
+}
+
+.nan-a {
+    font-size: 30px;
+    color: #75efff;
+    text-align: center;
+}
+
+.nan-b {
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.nan-c {
+    font-size: 18px;
+    color: white;;
+    text-align: center;
+}
+.container-for {
+    width: 400px; /* Ajusta a largura máxima da imagem para não exceder a largura do contêiner */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove margens indesejadas em alguns navegadores */
+  margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+}
+
+

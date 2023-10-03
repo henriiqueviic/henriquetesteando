@@ -1,0 +1,21 @@
+.wrapper {
+    color:#Ffff;
+    text-align: center;
+    font-size: 13px;
+    border: 2px solid rgb(255, 255, 255); /* Adiciona uma borda preta de 2px */
+  padding: 2rem; /* Adiciona um espaço interno de 20px */
+  margin: 4rem; /* Adiciona uma margem externa de 10px */
+  border-radius: 24px;
+  background: linear-gradient(to right, rgb(0, 82, 212), rgb(67, 100, 247), rgb(111, 177, 252));
+}
+
+.col-g {
+    margin-bottom: 2rem;
+    font-family: 'Inter', sans-serif;
+    color: #75efff;
+    font-size: 30px;
+}
+.col-h {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}

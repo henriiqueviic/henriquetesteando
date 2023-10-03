@@ -1,0 +1,21 @@
+@import url("./header.css");
+@import url("./media/start.css");
+@import url("./home.css");
+@import url("./wrapper.css");
+@import url("./teste.scss");
+@import url("./booxter.css");
+@import url("./tabs.css");
+@import url("./naff.css");
+@import url("./vflip.css");
+@import url("./town.css");
+@import url("./footer.css");
+@import url("./vaidarcerto.scss");
+body {
+    background-color: rgba(249, 247, 247, 0.365);
+    margin: 0;
+    padding: 0;
+
+}
+
+
+

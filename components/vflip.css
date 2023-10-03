@@ -1,0 +1,110 @@
+.container-wrapper {
+  text-align: center;
+  gap: 20px; /* Espaço entre os elementos */
+  
+  flex-wrap: wrap;
+
+  }
+
+  .container-downie-second, .container-downie-one {
+    width: 500px;
+  height: 350px;
+  perspective: 800px;
+  display: inline-block; /* Adicione esta linha para alinhar os elementos lado a lado */
+  vertical-align: middle; /* Adicione esta linha para alinhar verticalmente */
+  padding: 30px; /* Adicione espaço interno de 10px para cada elemento */  
+}
+  
+  .container-downie-one:hover > .card, .container-downie-second:hover > .card {
+    cursor: pointer;
+    transform: rotateY(180deg);
+  }
+
+  
+  .card {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    transition: transform 1100ms;
+    transform-style: preserve-3d;
+  }
+  
+  .front-one, .front-second,
+  .back {
+    height: 100%;
+    width: 100%;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .front-one {
+    background-image: url("../assents/aaaa.jpg")
+  }
+  .front-second {
+    background-image: url("../assents/uhh.jpg" ) }
+  
+  .back {
+    background-color: #b5b2b2;
+    transform: rotateY(180deg);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  .card-one {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 4rem;
+    color: black;
+  }
+
+  h6, h7 {
+    color: #75efff;
+    font-size: 22px;
+  }
+
+.front-third, .front-four {
+  padding: 0.4rem 1rem;
+  font-size: 18px;
+}
+
+#btnContatos-second {
+  display: block;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width:401px) and (max-width:745px) {
+  .card {
+    height: 232px;
+    width: 300px;
+    position: relative;
+    transition: transform 1100ms;
+    transform-style: preserve-3d;
+  }
+  
+  .front-one, .front-second,
+  .back {
+    height: 232px;
+    width: 300px;
+    border-radius: 2rem;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+    justify-content: center;
+    align-items: center;
+    background-position: center center; /* Centraliza a imagem de fundo */
+  }
+  .front-second {
+    background-image: url("../assents/rede-de-mulher-de-negocios-usando-dispositivos-digitais\ \(3\).jpg" ) }
+    .front-one {
+      background-image: url("../assents/plano-de-fundo-de-programacao-com-pessoa-trabalhando-com-codigos-no-computador\ \(5\).jpg")
+    }
+    .container-downie-one, .container-downie-second {
+      padding-left: 4rem;
+    }
+}

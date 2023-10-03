@@ -1,0 +1,201 @@
+.btn-contatos {
+  height: 3.4em;
+  width: 11em;
+  background: transparent;
+  -webkit-animation: jello-horizontal 0.9s both;
+  animation: jello-horizontal 0.9s both;
+  border: 2px solid #74b7fa;
+  outline: none;
+  color: #74b7fa;
+  font-size: 17px;
+  margin-top: 1rem;
+ }
+ 
+ .btn-contatos:hover {
+  background: #74b7fa;
+  color: #ffffff;
+  animation: squeeze3124 0.9s both;
+ }
+ 
+ @keyframes squeeze3124 {
+  0% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ 
+  30% {
+   -webkit-transform: scale3d(1.25, 0.75, 1);
+   transform: scale3d(1.25, 0.75, 1);
+  }
+ 
+  40% {
+   -webkit-transform: scale3d(0.75, 1.25, 1);
+   transform: scale3d(0.75, 1.25, 1);
+  }
+ 
+  50% {
+   -webkit-transform: scale3d(1.15, 0.85, 1);
+   transform: scale3d(1.15, 0.85, 1);
+  }
+ 
+  65% {
+   -webkit-transform: scale3d(0.95, 1.05, 1);
+   transform: scale3d(0.95, 1.05, 1);
+  }
+ 
+  75% {
+   -webkit-transform: scale3d(1.05, 0.95, 1);
+   transform: scale3d(1.05, 0.95, 1);
+  }
+ 
+  100% {
+   -webkit-transform: scale3d(1, 1, 1);
+   transform: scale3d(1, 1, 1);
+  }
+ }
+ 
+.col-a {
+  color: #75efff;
+}
+.col-c {
+  color: black;
+  margin-top: 1rem;
+}
+.home {
+  margin-top: 2rem;
+  
+}
+
+@media screen and (max-width: 401px) {
+  .container-second {
+    display: none;
+  }
+  .button-box {
+    margin-top: 1rem;
+  }
+  .home {
+    margin-top: 4rem;
+  }
+  .col-a, .col-c {
+font-size: 18px;
+padding: 0.7rem 2rem;
+  }
+
+  .container-air{
+    text-align: center;
+    justify-content: center;
+  }
+
+}
+
+@media screen and (min-width:401px) and (max-width:600px) {
+  .container-second {
+  width: 400px; /* Ajusta a largura máxima da imagem para não exceder a largura do contêiner */
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove margens indesejadas em alguns navegadores */
+  margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+  }
+
+  .button-box {
+    margin-top: 1rem;
+  }
+  .home {
+    margin-top: 4rem;
+  }
+  .col-a, .col-c {
+font-size: 18px;
+padding: 0.7rem 2rem;
+  }
+
+  .container-air{
+    text-align: center;
+    justify-content: center;
+  }
+  .container-third{
+      width: 300px;
+      height: auto; /* Mantém a proporção original da imagem */
+      display: block; /* Remove margens indesejadas em alguns navegadores */
+      margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+      }
+      
+}
+@media screen and (min-width:970px) and (max-width:2470px) {
+  .home {
+    display: flex;
+  }
+.container-air {
+  margin-top: 6rem;
+  padding-left: 2rem;
+}
+.col-a {
+  font-size: 38px;
+}
+.col-c{
+font-size: 34px;
+}
+.container-third {
+  width: 500px;
+  height: auto; /* Mantém a proporção original da imagem */
+  display: block; /* Remove margens indesejadas em alguns navegadores */
+  margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+  }
+}
+
+@media screen and (min-width:644px) and (max-width:970px) {
+  .home {
+    display: flex;
+  }
+.container-air {
+  margin-top: 4rem;
+  padding-left: 2rem;
+  
+}
+  .container-second {
+    width: 450px;
+  }
+  
+  .col-a {
+    font-size: 34px;
+  }
+  .col-c{
+font-size: 32px;
+  }
+  .container-third {
+    width: 400px;
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove margens indesejadas em alguns navegadores */
+    margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+    }
+}
+
+@media screen and (min-width:600px) and (max-width:970px) {
+  .home {
+    display: flex;
+  }
+.container-air {
+  margin-top: 4rem;
+  padding-left: 2rem;
+  
+}
+  .container-second {
+    width: 350px;
+  }
+  .col-a {
+    font-size: 26px;
+  }
+  .col-c{
+font-size: 24px;
+
+  }
+  .button-box {
+    padding-left: 2rem;
+  }
+  .container-third{
+    width: 350px;
+    height: auto; /* Mantém a proporção original da imagem */
+    display: block; /* Remove margens indesejadas em alguns navegadores */
+    margin: 0 auto; /* Centralize horizontalmente a imagem no contêiner */
+    }
+
+}
+
